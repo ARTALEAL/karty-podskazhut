@@ -23,7 +23,7 @@ figure {
 
 :root {
   --header-font-family: 'STIX Two Text', sans-serif;
-  --primary-font: Raleway, sans-serif;
+  --main-font: Raleway, sans-serif;
   --bg-color: #f3efec;
   --text-color: #312a4e;
   --accent-color: #ffab6b;
@@ -36,7 +36,7 @@ figure {
 }
 
 .page {
-  font-family: var(--primary-font);
+  font-family: var(--main-font);
   color: var(--text-color);
   background-color: var(--bg-color);
 }
@@ -254,7 +254,7 @@ a {
 }
 
 .footer__title {
-  font-family: var(--primary-font);
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
 }
